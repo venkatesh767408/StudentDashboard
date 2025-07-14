@@ -1,23 +1,23 @@
-import React from 'react'
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Homepage from './Pages/Homepage';
+import Coursespage from './Pages/Coursespage';
+import Feedbackpage from './Pages/Feedbackpage';
+import Loginpage from './Pages/Login';
+import Profilepage from './Pages/Profilepage';
+
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-        <Route  to="/" path={<Loginpage />}>
-
-        </Route>
-        <Route  to="/home" path={<Homepage />}>
-
-        </Route>
-        <Route to="profile" path={<Profilepage />}></Route>
-        <Route to="courses" path={<Coursespage />}></Route>
-        <Route to="feedback" path={<Feedbackpage />}></Route>
+        <Route path="/" element={<Loginpage />} />
+        <Route path="/home" element={<Homepage />} />
+        <Route path="/profile" element={<Profilepage />} />
+        <Route path="/courses" element={<Coursespage />} />
+        <Route path="/feedback" element={<Feedbackpage />} />
       </Routes>
-      </BrowserRouter>
-    </>
-  )
-}
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
