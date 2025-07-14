@@ -1,58 +1,4 @@
-<<<<<<< HEAD
-// import React from 'react';
-// import './Coursespage.css';
 
-// const courseData = [
-//   {
-//     id: 1,
-//     title: 'How To Work Instagram Marketing',
-//     date: '23',
-//     month: 'Aug',
-//     image: 'https://jobslab-reactjs.netlify.app/assets/img/blog/1.jpg',
-//     description: 'Learn how to grow your business with Instagram.'
-//   },
-//   {
-//     id: 2,
-//     title: 'Businesses Thriving, Are Not Societies',
-//     date: '23',
-//     month: 'Aug',
-//     image: 'https://jobslab-reactjs.netlify.app/assets/img/blog/2.jpg',
-//     description: 'Modern businesses need modern solutions.'
-//   },
-//   {
-//     id: 3,
-//     title: 'Nike Shoes Attract More For Sales',
-//     date: '23',
-//     month: 'Aug',
-//     image: 'https://jobslab-reactjs.netlify.app/assets/img/blog/3.jpg',
-//     description: 'Explore brand strategies used by Nike.'
-//   }
-// ];
-
-// const Coursespage = () => {
-//   return (
-//     <div className="courses-container">
-//       <h2 className="heading">We Are Best About This Job Solution.</h2>
-//       <p className="sub-text">There are many variations of passages of Lorem Ipsum Fastsby injected humour...</p>
-//       <div className="course-grid">
-//         {courseData.map((course) => (
-//           <div key={course.id} className="course-card">
-//             <div className="date-box">
-//               <span>{course.date}</span>
-//               <small>{course.month}</small>
-//             </div>
-//             <img src={course.image} alt={course.title} />
-//             <h4>{course.title}</h4>
-//             <p>{course.description}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Coursespage;
-// src/pages/Coursespage.jsx
 import React, { useState } from 'react';
 import './Coursespage.css';
 
@@ -191,18 +137,4 @@ const Coursespage = () => {
 };
 
 export default Coursespage;
-=======
-import React from 'react';
-import Navbar from '../components/Navbar';
 
-const Coursespage = () => {
-  return (
-    <>
-      <Navbar />
-      <h1 style={{ textAlign: 'center', marginTop: '2rem' }}>Courses Page</h1>
-    </>
-  );
-};
-
-export default Coursespage;
->>>>>>> 528308f (Added Home page UI by Harika)
