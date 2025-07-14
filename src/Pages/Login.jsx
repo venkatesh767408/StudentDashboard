@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
 
-const Login = () => {
+const Login= () => {
   return (
-    <div>Login</div>
-  )
-}
+    <>
+      <Navbar />
+      <h1 style={{ textAlign: 'center', marginTop: '2rem' }}>Login Page</h1>
+    </>
+  );
+};
 
-export default Login
+export default Login;

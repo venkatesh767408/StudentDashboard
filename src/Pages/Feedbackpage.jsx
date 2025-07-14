@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
 
 const Feedbackpage = () => {
   return (
-    <div>Feedbackpage</div>
-  )
-}
+    <>
+      <Navbar />
+      <h1 style={{ textAlign: 'center', marginTop: '2rem' }}>Feedback Page</h1>
+    </>
+  );
+};
 
-export default Feedbackpage
+export default Feedbackpage;

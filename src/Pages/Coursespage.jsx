@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react';
 // import './Coursespage.css';
 
@@ -190,3 +191,18 @@ const Coursespage = () => {
 };
 
 export default Coursespage;
+=======
+import React from 'react';
+import Navbar from '../components/Navbar';
+
+const Coursespage = () => {
+  return (
+    <>
+      <Navbar />
+      <h1 style={{ textAlign: 'center', marginTop: '2rem' }}>Courses Page</h1>
+    </>
+  );
+};
+
+export default Coursespage;
+>>>>>>> 528308f (Added Home page UI by Harika)
