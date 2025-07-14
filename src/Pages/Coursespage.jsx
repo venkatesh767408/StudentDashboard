@@ -1,5 +1,4 @@
 
-// src/pages/Coursespage.jsx
 import React, { useState } from 'react';
 import './Coursespage.css';
 
@@ -138,3 +137,4 @@ const Coursespage = () => {
 };
 
 export default Coursespage;
+
