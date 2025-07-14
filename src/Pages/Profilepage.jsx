@@ -1,12 +1,11 @@
-import React from 'react';
+
+
 import { useState } from 'react';
 import StudentTb from '../components/StudentTb/StudentTb.jsx';
 import StudentDetails from '../components/StudentDetails/StudentDetails.jsx';
 // import '../styles/Profilepage.css';
 import '../index.css'
-const Profilepage = () => {
-  const [selectedStudent, setselectedStudent] = useState(null);
-  return (
+import Navbar from '../components/Navbar';
     <div className='student-profile-page'>
       <h1>Student Profiles</h1>
       <div className="profile-content">
@@ -22,5 +21,12 @@ const Profilepage = () => {
     </div>
   )
 };
+    <>
+      <Navbar />
+      <h1 style={{ textAlign: 'center', marginTop: '2rem' }}>Profile Page</h1>
+    </>
+  );
+};
 
 export default Profilepage;
+
