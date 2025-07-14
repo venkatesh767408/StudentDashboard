@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../components/FeedbackForm.css"
-
+import Header from '../components/Header'
 const FeedbackForm = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -35,6 +35,8 @@ const FeedbackForm = () => {
   };
 
   return (
+    <>
+    <Header />
     <div className="feedback-container">
       <h2 className="form-title">📋 Student Feedback Form</h2>
 
@@ -111,6 +113,7 @@ const FeedbackForm = () => {
         </div>
       </form>
     </div>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import './Coursespage.css';
+import Header from '../components/Header';
 
 const courseData = [
   {
@@ -94,6 +95,8 @@ const Coursespage = () => {
   );
 
   return (
+    <>
+    <Header />
     <div className="courses-container">
       <h2 className="heading">We Are Best About This Job Solution.</h2>
       <p className="sub-text">Search and discover the best courses to level up your skills.</p>
@@ -133,6 +136,7 @@ const Coursespage = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 
