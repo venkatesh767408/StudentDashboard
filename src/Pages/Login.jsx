@@ -79,6 +79,7 @@ const Auth = () => {
   };
 
   return (
+    <div className="auth-wrapper">
     <div className="auth-container">
       <h2>
         {view === "login"
@@ -175,6 +176,7 @@ const Auth = () => {
           <span onClick={() => switchView("login")}>Back to Login</span>
         )}
       </div>
+    </div>
     </div>
   );
 };
