@@ -1,0 +1,40 @@
+.table-container {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.student-table th,
+.student-table td {
+    padding: 14px 16px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 600;
+    border-bottom: 2px solid #0a58ca;
+}
+
+.student-table tr {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.student-table tr:hover {
+    background-color: #e9f2ff;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
